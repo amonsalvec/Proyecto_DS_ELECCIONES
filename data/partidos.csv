@@ -1,0 +1,9 @@
+ID,LANGUAGE_ID,ACRONYM,LABEL,TP,AÑO_ID
+GP1201,EN,EPP,Group of the European People's Party (Christian Democrats),Centro_Derecha,3
+GP1202,EN,S&D,Group of the Progressive Alliance of Socialists and Democrats in the European Parliament,Centro_Izquierda,3
+GP1203,EN,ALDE,Group of the Alliance of Liberals and Democrats for Europe,Centro_Liberal,3
+GP1204,EN,Greens/EFA,Group of the Greens/European Free Alliance,Izquierda_Liberal,3
+GP1205,EN,ECR,European Conservatives and Reformists Group,Conservadores_Euroescépticos,3
+GP1206,EN,GUE/NGL,Confederal Group of the European United Left - Nordic Green Left,Izquierda_Radical,3
+GP1207,EN,EFD,Europe of freedom and democracy Group,Derecha_Nacionalista,3
+GP000,EN,NI,Non-attached Members,Grupo_Mixto,3
