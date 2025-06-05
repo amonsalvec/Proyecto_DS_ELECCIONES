@@ -1,40 +1,40 @@
-CANDIDATO_DESC,CANDIDATO_COD,CANDIDATO_SIGLAS
-"Partido X, Partido del Futuro",46,PARTIDO X
-Agrupación de Electores D.E.R.,47,DISCAPACITADOS y ENFERMEDADES RARAS
-Salamanca-Zamora-León Prepal,48,PREPAL
-Esquerra Unida País Valencià-Els Verds: L'Esquerra Plural,52,EUPV-EV
-Els Pobles decideixen,70,EH BILDU-BNG
-Extremeños por Europa Coalición Electoral IPEX PREX CREX,73,IPEX-PREX-CREX
-Partido Andalucista,74,PARTIDO ANDALUCISTA
-Movimiento corriente roja,75,M.C.R.
-Escaños en blanco,76,EB
-"Per la República, per la ruptura amb la Unió Europea",82,R.R.U.E.
-Podemos-Podem,85,PODEMOS
-Alternativa Republicana,86,ALTER
-Partido da Terra,87,PT
-Solidaridad y Autogestión Internacionalista,88,SAIn
-La España en marcha,89,LEM
-Piratas de la Comunidad Valenciana-Confederación Pirata-European Pirates,96,PIRATAS
-Democracia Nacional,99,D.N.
-Valencians per Europa-Proyecte Europa,103,ACNV-R.E.P.O-UNIO
-"Movimiento de Renovación Democrática Ciudadana, Movimiento Red",104,MOVIMIENTO RED
-Movimiento Social Republicano,105,M.S.R.
-Ciudadanos Libres Unidos,106,CILUS
-Partido animalista contra el maltrato animal/Partit animalista contra el maltractament animal,14,PACMA
-Esquerra Republicana-L'Esquerra pel dret a decidir,20,EPDD
-Ciudadanos-Partido de la Ciudadanía,25,C'S
-Impulso Social,27,IMPULSOCIAL
-Agrupación de Electores Recortes Cero,28,RECORTES CERO
-Coalició Compromís,31,PRIMAVERA EUROPEA
-Extremadura Unida,40,EXTREMADURA UNIDA
-Partido Humanista,41,PH
-VOX,42,VOX
-Partido de la Libertad Individual,43,P-LIB
-Falange Española de las J.O.N.S.,44,FE DE LAS JONS
-Partido Comunista de los Pueblos de España,45,P.C.P.E.
-Iniciativa Feminista,1,I.FEM
-Partido Socialista Obrero Español,2,PSOE
-Partido Popular,4,PP
-Coalición por Europa,5,CEU
-Foro de Ciudadanos,10,FAC
-Unión Progreso y Democracia,11,UPYD
+CANDIDATO_DESC,CANDIDATO_COD,CANDIDATO_SIGLAS,AÑO_ID
+"Partido X, Partido del Futuro",46,PARTIDO X,2
+Agrupación de Electores D.E.R.,47,DISCAPACITADOS y ENFERMEDADES RARAS,2
+Salamanca-Zamora-León Prepal,48,PREPAL,2
+Esquerra Unida País Valencià-Els Verds: L'Esquerra Plural,52,EUPV-EV,2
+Els Pobles decideixen,70,EH BILDU-BNG,2
+Extremeños por Europa Coalición Electoral IPEX PREX CREX,73,IPEX-PREX-CREX,2
+Partido Andalucista,74,PARTIDO ANDALUCISTA,2
+Movimiento corriente roja,75,M.C.R.,2
+Escaños en blanco,76,EB,2
+"Per la República, per la ruptura amb la Unió Europea",82,R.R.U.E.,2
+Podemos-Podem,85,PODEMOS,2
+Alternativa Republicana,86,ALTER,2
+Partido da Terra,87,PT,2
+Solidaridad y Autogestión Internacionalista,88,SAIn,2
+La España en marcha,89,LEM,2
+Piratas de la Comunidad Valenciana-Confederación Pirata-European Pirates,96,PIRATAS,2
+Democracia Nacional,99,D.N.,2
+Valencians per Europa-Proyecte Europa,103,ACNV-R.E.P.O-UNIO,2
+"Movimiento de Renovación Democrática Ciudadana, Movimiento Red",104,MOVIMIENTO RED,2
+Movimiento Social Republicano,105,M.S.R.,2
+Ciudadanos Libres Unidos,106,CILUS,2
+Partido animalista contra el maltrato animal/Partit animalista contra el maltractament animal,14,PACMA,2
+Esquerra Republicana-L'Esquerra pel dret a decidir,20,EPDD,2
+Ciudadanos-Partido de la Ciudadanía,25,C'S,2
+Impulso Social,27,IMPULSOCIAL,2
+Agrupación de Electores Recortes Cero,28,RECORTES CERO,2
+Coalició Compromís,31,PRIMAVERA EUROPEA,2
+Extremadura Unida,40,EXTREMADURA UNIDA,2
+Partido Humanista,41,PH,2
+VOX,42,VOX,2
+Partido de la Libertad Individual,43,P-LIB,2
+Falange Española de las J.O.N.S.,44,FE DE LAS JONS,2
+Partido Comunista de los Pueblos de España,45,P.C.P.E.,2
+Iniciativa Feminista,1,I.FEM,2
+Partido Socialista Obrero Español,2,PSOE,2
+Partido Popular,4,PP,2
+Coalición por Europa,5,CEU,2
+Foro de Ciudadanos,10,FAC,2
+Unión Progreso y Democracia,11,UPYD,2
