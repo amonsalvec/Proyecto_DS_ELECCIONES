@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_de0f4cd4adb577c00890e36ddaba4983 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_de0f4cd4adb577c00890e36ddaba4983" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_de0f4cd4adb577c00890e36ddaba4983 = L.map(
+                "map_de0f4cd4adb577c00890e36ddaba4983",
+                {
+                    center: [39.5, -0.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_265d43954c4f846168637d5ef7aa9dd9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_265d43954c4f846168637d5ef7aa9dd9.addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+            var marker_513f66d35793063c1b0797a64e71db45 = L.marker(
+                [40.05, -0.5167],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_04b9dcdc2a352ad2a7d35ed99f4e4a75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fdc437b8ba06698f92f5cfcf3cd9e4c = $(`<div id="html_6fdc437b8ba06698f92f5cfcf3cd9e4c" style="width: 100.0%; height: 100.0%;"><b>El Alto Mijares</b><br>Votantes: 90304<br>Votos válidos: 89472<br>Votos blancos: 832<br>Abstenciones: 17760<br>Votos nulos: 832</div>`)[0];
+                popup_04b9dcdc2a352ad2a7d35ed99f4e4a75.setContent(html_6fdc437b8ba06698f92f5cfcf3cd9e4c);
+            
+        
+
+        marker_513f66d35793063c1b0797a64e71db45.bindPopup(popup_04b9dcdc2a352ad2a7d35ed99f4e4a75)
+        ;
+
+        
+    
+    
+            var marker_96ddd2bd4febb31fdf68305a8ea0eae9 = L.marker(
+                [39.85, -0.5],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_aa669b6112844b39a6229075040b63e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0f456be566961c339b0b6497460dee4 = $(`<div id="html_a0f456be566961c339b0b6497460dee4" style="width: 100.0%; height: 100.0%;"><b>El Alto Palancia</b><br>Votantes: 486784<br>Votos válidos: 481472<br>Votos blancos: 4384<br>Abstenciones: 122624<br>Votos nulos: 5312</div>`)[0];
+                popup_aa669b6112844b39a6229075040b63e1.setContent(html_a0f456be566961c339b0b6497460dee4);
+            
+        
+
+        marker_96ddd2bd4febb31fdf68305a8ea0eae9.bindPopup(popup_aa669b6112844b39a6229075040b63e1)
+        ;
+
+        
+    
+    
+            var marker_2f9e60ae5b3c9f16c48a674f79bd7ee3 = L.marker(
+                [38.6333, -0.8666999999999999],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_0e3a9e4ff983cf778f55cd587a9509a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31907a054f33a8c399afc0ca1e153fcf = $(`<div id="html_31907a054f33a8c399afc0ca1e153fcf" style="width: 100.0%; height: 100.0%;"><b>El Alto Vinalopó</b><br>Votantes: 881632<br>Votos válidos: 870880<br>Votos blancos: 11360<br>Abstenciones: 416928<br>Votos nulos: 10752</div>`)[0];
+                popup_0e3a9e4ff983cf778f55cd587a9509a8.setContent(html_31907a054f33a8c399afc0ca1e153fcf);
+            
+        
+
+        marker_2f9e60ae5b3c9f16c48a674f79bd7ee3.bindPopup(popup_0e3a9e4ff983cf778f55cd587a9509a8)
+        ;
+
+        
+    
+    
+            var marker_bd872f1d4c96cf079c2d1426dde78bb2 = L.marker(
+                [40.5, 0.4167],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_5713150b8fe54eebada40b55fc532599 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28fa261fc36003fd388d98ba50fb2852 = $(`<div id="html_28fa261fc36003fd388d98ba50fb2852" style="width: 100.0%; height: 100.0%;"><b>El Baix Maestrat</b><br>Votantes: 1199392<br>Votos válidos: 1183840<br>Votos blancos: 16096<br>Abstenciones: 602848<br>Votos nulos: 15552</div>`)[0];
+                popup_5713150b8fe54eebada40b55fc532599.setContent(html_28fa261fc36003fd388d98ba50fb2852);
+            
+        
+
+        marker_bd872f1d4c96cf079c2d1426dde78bb2.bindPopup(popup_5713150b8fe54eebada40b55fc532599)
+        ;
+
+        
+    
+    
+            var marker_59abc0fe5cd77bb8851e21afc6f07b7f = L.marker(
+                [38.2667, -0.7000000000000001],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_682701eacb07f32ac62a5c91bcced8b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f3e2ed9077be6c4a183ea32483a0818 = $(`<div id="html_0f3e2ed9077be6c4a183ea32483a0818" style="width: 100.0%; height: 100.0%;"><b>El Baix Vinalopó</b><br>Votantes: 4114144<br>Votos válidos: 4092288<br>Votos blancos: 25120<br>Abstenciones: 2747232<br>Votos nulos: 21856</div>`)[0];
+                popup_682701eacb07f32ac62a5c91bcced8b2.setContent(html_0f3e2ed9077be6c4a183ea32483a0818);
+            
+        
+
+        marker_59abc0fe5cd77bb8851e21afc6f07b7f.bindPopup(popup_682701eacb07f32ac62a5c91bcced8b2)
+        ;
+
+        
+    
+    
+            var marker_496b0d88f69557d620a7a0083401c8f0 = L.marker(
+                [39.70000000000001, -0.3833],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_4cc5b7e9393c8939e8d42b97683899b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_305b6b18ebe8141a38966d799893b743 = $(`<div id="html_305b6b18ebe8141a38966d799893b743" style="width: 100.0%; height: 100.0%;"><b>El Camp de Morvedre</b><br>Votantes: 1394080<br>Votos válidos: 1382528<br>Votos blancos: 12512<br>Abstenciones: 819840<br>Votos nulos: 11552</div>`)[0];
+                popup_4cc5b7e9393c8939e8d42b97683899b1.setContent(html_305b6b18ebe8141a38966d799893b743);
+            
+        
+
+        marker_496b0d88f69557d620a7a0083401c8f0.bindPopup(popup_4cc5b7e9393c8939e8d42b97683899b1)
+        ;
+
+        
+    
+    
+            var marker_81e4bfef4fd7ce950c27696af879cf0e = L.marker(
+                [39.65, -0.55],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_5cfe5c2117de548f4f1e81a93e80cd56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_443a1bc6fff3be06f91b5d031c56e4c4 = $(`<div id="html_443a1bc6fff3be06f91b5d031c56e4c4" style="width: 100.0%; height: 100.0%;"><b>El Camp de Túria</b><br>Votantes: 2548448<br>Votos válidos: 2530080<br>Votos blancos: 18784<br>Abstenciones: 1345472<br>Votos nulos: 18368</div>`)[0];
+                popup_5cfe5c2117de548f4f1e81a93e80cd56.setContent(html_443a1bc6fff3be06f91b5d031c56e4c4);
+            
+        
+
+        marker_81e4bfef4fd7ce950c27696af879cf0e.bindPopup(popup_5cfe5c2117de548f4f1e81a93e80cd56)
+        ;
+
+        
+    
+    
+            var marker_03203b50c057894a56c04bd0969c2415 = L.marker(
+                [38.75, -0.35],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_3d7daa9c9b254bf841ecd438c6e03d9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c942cb3dc062992423672b9c649cebb6 = $(`<div id="html_c942cb3dc062992423672b9c649cebb6" style="width: 100.0%; height: 100.0%;"><b>El Comtat</b><br>Votantes: 503584<br>Votos válidos: 497856<br>Votos blancos: 4704<br>Abstenciones: 188192<br>Votos nulos: 5728</div>`)[0];
+                popup_3d7daa9c9b254bf841ecd438c6e03d9f.setContent(html_c942cb3dc062992423672b9c649cebb6);
+            
+        
+
+        marker_03203b50c057894a56c04bd0969c2415.bindPopup(popup_3d7daa9c9b254bf841ecd438c6e03d9f)
+        ;
+
+        
+    
+    
+            var marker_9133616bb8add085f7e2bd927e4a8322 = L.marker(
+                [40.05, -1.0],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_9687516f6a72b7a6933494e646fdc0fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87c5ce0909d0df31224b7a2a0691ca4e = $(`<div id="html_87c5ce0909d0df31224b7a2a0691ca4e" style="width: 100.0%; height: 100.0%;"><b>El Rincón de Ademuz</b><br>Votantes: 48832<br>Votos válidos: 48512<br>Votos blancos: 640<br>Abstenciones: 10304<br>Votos nulos: 320</div>`)[0];
+                popup_9687516f6a72b7a6933494e646fdc0fb.setContent(html_87c5ce0909d0df31224b7a2a0691ca4e);
+            
+        
+
+        marker_9133616bb8add085f7e2bd927e4a8322.bindPopup(popup_9687516f6a72b7a6933494e646fdc0fb)
+        ;
+
+        
+    
+    
+            var marker_014ff2ead750abebc799c79382a51b1d = L.marker(
+                [39.1, -1.1],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_d81a1e1397e2c398aa12e1033c8e540d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62a14d2b3b78443159e296ccd44f5460 = $(`<div id="html_62a14d2b3b78443159e296ccd44f5460" style="width: 100.0%; height: 100.0%;"><b>El Valle de Cofrentes-Ayora</b><br>Votantes: 211040<br>Votos válidos: 207808<br>Votos blancos: 2144<br>Abstenciones: 50240<br>Votos nulos: 3232</div>`)[0];
+                popup_d81a1e1397e2c398aa12e1033c8e540d.setContent(html_62a14d2b3b78443159e296ccd44f5460);
+            
+        
+
+        marker_014ff2ead750abebc799c79382a51b1d.bindPopup(popup_d81a1e1397e2c398aa12e1033c8e540d)
+        ;
+
+        
+    
+    
+            var marker_d424d31f62c8e7eccd8a3951548a914d = L.marker(
+                [38.45, -0.8],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_ea462e4871a2cf1c8d35b300a34c596b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b35af42f8a1efce24fe5d9c63cc1f81 = $(`<div id="html_9b35af42f8a1efce24fe5d9c63cc1f81" style="width: 100.0%; height: 100.0%;"><b>El Vinalopó Medio</b><br>Votantes: 2661152<br>Votos válidos: 2632160<br>Votos blancos: 25696<br>Abstenciones: 1519104<br>Votos nulos: 28992</div>`)[0];
+                popup_ea462e4871a2cf1c8d35b300a34c596b.setContent(html_9b35af42f8a1efce24fe5d9c63cc1f81);
+            
+        
+
+        marker_d424d31f62c8e7eccd8a3951548a914d.bindPopup(popup_ea462e4871a2cf1c8d35b300a34c596b)
+        ;
+
+        
+    
+    
+            var marker_b1bd2f4f8134b909c7ed31dc1a1b15f1 = L.marker(
+                [40.65, -0.2667],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_4b02be952d5ec0aa2a039df77bba31d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71ca81149ec3d07b21592fef1625120a = $(`<div id="html_71ca81149ec3d07b21592fef1625120a" style="width: 100.0%; height: 100.0%;"><b>Els Ports</b><br>Votantes: 89824<br>Votos válidos: 88480<br>Votos blancos: 1312<br>Abstenciones: 26752<br>Votos nulos: 1344</div>`)[0];
+                popup_4b02be952d5ec0aa2a039df77bba31d3.setContent(html_71ca81149ec3d07b21592fef1625120a);
+            
+        
+
+        marker_b1bd2f4f8134b909c7ed31dc1a1b15f1.bindPopup(popup_4b02be952d5ec0aa2a039df77bba31d3)
+        ;
+
+        
+    
+    
+            var marker_45e57a07eab27e6cea1633da51d0d0f3 = L.marker(
+                [38.3452, -0.481],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_761c7a28c1ff521da12f89a00a12c6d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9e8741e98c52d8d599c7fe0d656408a = $(`<div id="html_c9e8741e98c52d8d599c7fe0d656408a" style="width: 100.0%; height: 100.0%;"><b>L'Alacantí</b><br>Votantes: 6369056<br>Votos válidos: 6339616<br>Votos blancos: 33952<br>Abstenciones: 4901440<br>Votos nulos: 29440</div>`)[0];
+                popup_761c7a28c1ff521da12f89a00a12c6d3.setContent(html_c9e8741e98c52d8d599c7fe0d656408a);
+            
+        
+
+        marker_45e57a07eab27e6cea1633da51d0d0f3.bindPopup(popup_761c7a28c1ff521da12f89a00a12c6d3)
+        ;
+
+        
+    
+    
+            var marker_a5d897ed71cd3ede578ad4b3b57ae161 = L.marker(
+                [40.15, -0.2],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_a1eb5dec26e4d0db70556eb1359fe3bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4329da7d1f6ed7c407e86acd0b9fede3 = $(`<div id="html_4329da7d1f6ed7c407e86acd0b9fede3" style="width: 100.0%; height: 100.0%;"><b>L'Alcalatén</b><br>Votantes: 298272<br>Votos válidos: 293536<br>Votos blancos: 4800<br>Abstenciones: 101088<br>Votos nulos: 4736</div>`)[0];
+                popup_a1eb5dec26e4d0db70556eb1359fe3bc.setContent(html_4329da7d1f6ed7c407e86acd0b9fede3);
+            
+        
+
+        marker_a5d897ed71cd3ede578ad4b3b57ae161.bindPopup(popup_a1eb5dec26e4d0db70556eb1359fe3bc)
+        ;
+
+        
+    
+    
+            var marker_0f7a8a0787ac1c9dfbf2dfdf4810b918 = L.marker(
+                [38.7, -0.4699999999999999],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_aea56894d61b489176ceda1bdd65d037 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c82ea5357992e936408f21c214aa62d3 = $(`<div id="html_c82ea5357992e936408f21c214aa62d3" style="width: 100.0%; height: 100.0%;"><b>L'Alcoià</b><br>Votantes: 1816608<br>Votos válidos: 1799808<br>Votos blancos: 16352<br>Abstenciones: 924544<br>Votos nulos: 16800</div>`)[0];
+                popup_aea56894d61b489176ceda1bdd65d037.setContent(html_c82ea5357992e936408f21c214aa62d3);
+            
+        
+
+        marker_0f7a8a0787ac1c9dfbf2dfdf4810b918.bindPopup(popup_aea56894d61b489176ceda1bdd65d037)
+        ;
+
+        
+    
+    
+            var marker_794ea15b2b4c5be4d818f52959bf9cc9 = L.marker(
+                [40.4167, -0.20000000000000004],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_1b374f737e3a66f08a826ef110069b18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_203e182bb8ced8a3a63347d12b378827 = $(`<div id="html_203e182bb8ced8a3a63347d12b378827" style="width: 100.0%; height: 100.0%;"><b>L'Alt Maestrat</b><br>Votantes: 136672<br>Votos válidos: 134336<br>Votos blancos: 2752<br>Abstenciones: 38912<br>Votos nulos: 2336</div>`)[0];
+                popup_1b374f737e3a66f08a826ef110069b18.setContent(html_203e182bb8ced8a3a63347d12b378827);
+            
+        
+
+        marker_794ea15b2b4c5be4d818f52959bf9cc9.bindPopup(popup_1b374f737e3a66f08a826ef110069b18)
+        ;
+
+        
+    
+    
+            var marker_1bc7a4c6fc7d6a77906bec4e2b9c8b88 = L.marker(
+                [39.5333, -0.3333],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_e8198e447fc25530a987600bdd2baaa6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c90360276903c6d3a6df18aadf813da4 = $(`<div id="html_c90360276903c6d3a6df18aadf813da4" style="width: 100.0%; height: 100.0%;"><b>L'Horta Nord</b><br>Votantes: 3637056<br>Votos válidos: 3611520<br>Votos blancos: 27616<br>Abstenciones: 1870560<br>Votos nulos: 25536</div>`)[0];
+                popup_e8198e447fc25530a987600bdd2baaa6.setContent(html_c90360276903c6d3a6df18aadf813da4);
+            
+        
+
+        marker_1bc7a4c6fc7d6a77906bec4e2b9c8b88.bindPopup(popup_e8198e447fc25530a987600bdd2baaa6)
+        ;
+
+        
+    
+    
+            var marker_7d22f7f3a0f8a782ad2d39de67d07c0c = L.marker(
+                [39.45, -0.43329999999999996],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_5366efba01989b5d7b1d28bcd2a57484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_caa846470e40588ac76304f713d0b9d8 = $(`<div id="html_caa846470e40588ac76304f713d0b9d8" style="width: 100.0%; height: 100.0%;"><b>L'Horta Oest</b><br>Votantes: 5195456<br>Votos válidos: 5168704<br>Votos blancos: 33664<br>Abstenciones: 3240672<br>Votos nulos: 26752</div>`)[0];
+                popup_5366efba01989b5d7b1d28bcd2a57484.setContent(html_caa846470e40588ac76304f713d0b9d8);
+            
+        
+
+        marker_7d22f7f3a0f8a782ad2d39de67d07c0c.bindPopup(popup_5366efba01989b5d7b1d28bcd2a57484)
+        ;
+
+        
+    
+    
+            var marker_a2bf9fa5a071cb3543b6ecd79ba2c886 = L.marker(
+                [39.38329999999999, -0.41669999999999996],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_815b6c0bed9543121c668ca26eef23b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_197c572c93145c976d4eded1e2d64b7c = $(`<div id="html_197c572c93145c976d4eded1e2d64b7c" style="width: 100.0%; height: 100.0%;"><b>L'Horta Sud</b><br>Votantes: 2756544<br>Votos válidos: 2739808<br>Votos blancos: 18816<br>Abstenciones: 1528960<br>Votos nulos: 16736</div>`)[0];
+                popup_815b6c0bed9543121c668ca26eef23b1.setContent(html_197c572c93145c976d4eded1e2d64b7c);
+            
+        
+
+        marker_a2bf9fa5a071cb3543b6ecd79ba2c886.bindPopup(popup_815b6c0bed9543121c668ca26eef23b1)
+        ;
+
+        
+    
+    
+            var marker_70701007d4eb5f0c189d9fca512dcbb0 = L.marker(
+                [39.05, -0.7],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_b13a6db3cf740657f2a9f9fc0175b2b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe8823eaa1395f6fe6f2a6eb844c8a8d = $(`<div id="html_fe8823eaa1395f6fe6f2a6eb844c8a8d" style="width: 100.0%; height: 100.0%;"><b>La Canal de Navarrés</b><br>Votantes: 327360<br>Votos válidos: 322976<br>Votos blancos: 3520<br>Abstenciones: 73728<br>Votos nulos: 4384</div>`)[0];
+                popup_b13a6db3cf740657f2a9f9fc0175b2b2.setContent(html_fe8823eaa1395f6fe6f2a6eb844c8a8d);
+            
+        
+
+        marker_70701007d4eb5f0c189d9fca512dcbb0.bindPopup(popup_b13a6db3cf740657f2a9f9fc0175b2b2)
+        ;
+
+        
+    
+    
+            var marker_d341e2a13c3de68a938483371652658a = L.marker(
+                [38.9833, -0.5167],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_25599d6201486bca2fd49a9a096b0071 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa2444a9a029da31733b52930b7deba6 = $(`<div id="html_fa2444a9a029da31733b52930b7deba6" style="width: 100.0%; height: 100.0%;"><b>La Costera</b><br>Votantes: 1271424<br>Votos válidos: 1258016<br>Votos blancos: 12576<br>Abstenciones: 498528<br>Votos nulos: 13408</div>`)[0];
+                popup_25599d6201486bca2fd49a9a096b0071.setContent(html_fa2444a9a029da31733b52930b7deba6);
+            
+        
+
+        marker_d341e2a13c3de68a938483371652658a.bindPopup(popup_25599d6201486bca2fd49a9a096b0071)
+        ;
+
+        
+    
+    
+            var marker_6234e65f44ac22e3ad8377ddc4935fd8 = L.marker(
+                [39.4, -0.75],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_80d270d9657f657abcea27e4970fd7db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_778caa68fdfaa690cf2d0a84c79c1e10 = $(`<div id="html_778caa68fdfaa690cf2d0a84c79c1e10" style="width: 100.0%; height: 100.0%;"><b>La Hoya de Buñol</b><br>Votantes: 722112<br>Votos válidos: 712160<br>Votos blancos: 6432<br>Abstenciones: 326976<br>Votos nulos: 9952</div>`)[0];
+                popup_80d270d9657f657abcea27e4970fd7db.setContent(html_778caa68fdfaa690cf2d0a84c79c1e10);
+            
+        
+
+        marker_6234e65f44ac22e3ad8377ddc4935fd8.bindPopup(popup_80d270d9657f657abcea27e4970fd7db)
+        ;
+
+        
+    
+    
+            var marker_9e7ba6993cf131cb0dc12eb5e910f568 = L.marker(
+                [38.8206, 0.0426],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_a1642f6b110bf0aa5f76ddeb81180c5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1cf048880e3072db0ddc9732dda7aff = $(`<div id="html_c1cf048880e3072db0ddc9732dda7aff" style="width: 100.0%; height: 100.0%;"><b>La Marina Alta</b><br>Votantes: 2138304<br>Votos válidos: 2116704<br>Votos blancos: 19168<br>Abstenciones: 1515520<br>Votos nulos: 21600</div>`)[0];
+                popup_a1642f6b110bf0aa5f76ddeb81180c5b.setContent(html_c1cf048880e3072db0ddc9732dda7aff);
+            
+        
+
+        marker_9e7ba6993cf131cb0dc12eb5e910f568.bindPopup(popup_a1642f6b110bf0aa5f76ddeb81180c5b)
+        ;
+
+        
+    
+    
+            var marker_4b28b1bc9cdd07c82be4f4a7d4481cc5 = L.marker(
+                [38.58, -0.13],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_3c8ba8140908608a2f4248e671d9d874 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d0e20d1cfd3628d5d303f29c7b788cb = $(`<div id="html_9d0e20d1cfd3628d5d303f29c7b788cb" style="width: 100.0%; height: 100.0%;"><b>La Marina Baixa</b><br>Votantes: 2160192<br>Votos válidos: 2140672<br>Votos blancos: 18080<br>Abstenciones: 1652160<br>Votos nulos: 19520</div>`)[0];
+                popup_3c8ba8140908608a2f4248e671d9d874.setContent(html_9d0e20d1cfd3628d5d303f29c7b788cb);
+            
+        
+
+        marker_4b28b1bc9cdd07c82be4f4a7d4481cc5.bindPopup(popup_3c8ba8140908608a2f4248e671d9d874)
+        ;
+
+        
+    
+    
+            var marker_b1b17d0925dc35590c1d0e7b030b695f = L.marker(
+                [40.0167, -0.0333],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_cce049a06fc8c09586cbc1bcb829d9e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6321885a95949490822d6cf8f495ae30 = $(`<div id="html_6321885a95949490822d6cf8f495ae30" style="width: 100.0%; height: 100.0%;"><b>La Plana Alta</b><br>Votantes: 3558496<br>Votos válidos: 3530976<br>Votos blancos: 26144<br>Abstenciones: 2131232<br>Votos nulos: 27520</div>`)[0];
+                popup_cce049a06fc8c09586cbc1bcb829d9e8.setContent(html_6321885a95949490822d6cf8f495ae30);
+            
+        
+
+        marker_b1b17d0925dc35590c1d0e7b030b695f.bindPopup(popup_cce049a06fc8c09586cbc1bcb829d9e8)
+        ;
+
+        
+    
+    
+            var marker_f67d0922cd59d430f626ab1ee602cc40 = L.marker(
+                [39.86670000000001, -0.15],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_f24c121e2272a39041cc1eced1b11cfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5ae580c6478211cccc3a7b42a909bbd = $(`<div id="html_f5ae580c6478211cccc3a7b42a909bbd" style="width: 100.0%; height: 100.0%;"><b>La Plana Baixa</b><br>Votantes: 3051616<br>Votos válidos: 3018976<br>Votos blancos: 31296<br>Abstenciones: 1460032<br>Votos nulos: 32640</div>`)[0];
+                popup_f24c121e2272a39041cc1eced1b11cfd.setContent(html_f5ae580c6478211cccc3a7b42a909bbd);
+            
+        
+
+        marker_f67d0922cd59d430f626ab1ee602cc40.bindPopup(popup_f24c121e2272a39041cc1eced1b11cfd)
+        ;
+
+        
+    
+    
+            var marker_4989ed35ae0be9e7391932d4211efe09 = L.marker(
+                [39.4833, -1.2167],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_e76cb343f3548d4166e9a0287ca494fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d78eecace1d18756bfd95724132a98e = $(`<div id="html_6d78eecace1d18756bfd95724132a98e" style="width: 100.0%; height: 100.0%;"><b>La Plana de Utiel-Requena</b><br>Votantes: 627520<br>Votos válidos: 621376<br>Votos blancos: 7648<br>Abstenciones: 319552<br>Votos nulos: 6144</div>`)[0];
+                popup_e76cb343f3548d4166e9a0287ca494fa.setContent(html_6d78eecace1d18756bfd95724132a98e);
+            
+        
+
+        marker_4989ed35ae0be9e7391932d4211efe09.bindPopup(popup_e76cb343f3548d4166e9a0287ca494fa)
+        ;
+
+        
+    
+    
+            var marker_1961c0377b4dc65af6decc8491eae168 = L.marker(
+                [39.1, -0.48330000000000006],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_36a6ce2e75b3f3d1c5b8d8900eb52d04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31ff3dc8721fe7517e0ac3b552396b08 = $(`<div id="html_31ff3dc8721fe7517e0ac3b552396b08" style="width: 100.0%; height: 100.0%;"><b>La Ribera Alta</b><br>Votantes: 3631936<br>Votos válidos: 3597216<br>Votos blancos: 32992<br>Abstenciones: 1720832<br>Votos nulos: 34720</div>`)[0];
+                popup_36a6ce2e75b3f3d1c5b8d8900eb52d04.setContent(html_31ff3dc8721fe7517e0ac3b552396b08);
+            
+        
+
+        marker_1961c0377b4dc65af6decc8491eae168.bindPopup(popup_36a6ce2e75b3f3d1c5b8d8900eb52d04)
+        ;
+
+        
+    
+    
+            var marker_3961e998d7e12aa455a76084fa4fb959 = L.marker(
+                [39.2, -0.3],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_45cf498ca815e058499078341671c56e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2415ceb4b4efee893806aa8dfa1671cd = $(`<div id="html_2415ceb4b4efee893806aa8dfa1671cd" style="width: 100.0%; height: 100.0%;"><b>La Ribera Baixa</b><br>Votantes: 1365536<br>Votos válidos: 1351072<br>Votos blancos: 16256<br>Abstenciones: 599200<br>Votos nulos: 14464</div>`)[0];
+                popup_45cf498ca815e058499078341671c56e.setContent(html_2415ceb4b4efee893806aa8dfa1671cd);
+            
+        
+
+        marker_3961e998d7e12aa455a76084fa4fb959.bindPopup(popup_45cf498ca815e058499078341671c56e)
+        ;
+
+        
+    
+    
+            var marker_28b89f72b3c16b62e1603da82dfa5d66 = L.marker(
+                [38.9667, -0.18329999999999996],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_a4f0b89686f30ae48b039f41a488d772 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0fa2770bce3193faa75c984e1f3c3bc = $(`<div id="html_a0fa2770bce3193faa75c984e1f3c3bc" style="width: 100.0%; height: 100.0%;"><b>La Safor</b><br>Votantes: 2771040<br>Votos válidos: 2748096<br>Votos blancos: 29056<br>Abstenciones: 1182080<br>Votos nulos: 22944</div>`)[0];
+                popup_a4f0b89686f30ae48b039f41a488d772.setContent(html_a0fa2770bce3193faa75c984e1f3c3bc);
+            
+        
+
+        marker_28b89f72b3c16b62e1603da82dfa5d66.bindPopup(popup_a4f0b89686f30ae48b039f41a488d772)
+        ;
+
+        
+    
+    
+            var marker_ba5060c300f12ff125e492baf798cc6d = L.marker(
+                [38.866699999999994, -0.5333],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_adc7fea8a5a5146a5575dc6294247c1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09bdff4da0006f5f1195de21b1d822b2 = $(`<div id="html_09bdff4da0006f5f1195de21b1d822b2" style="width: 100.0%; height: 100.0%;"><b>La Vall d'Albaida</b><br>Votantes: 1625952<br>Votos válidos: 1605632<br>Votos blancos: 21248<br>Abstenciones: 536608<br>Votos nulos: 20320</div>`)[0];
+                popup_adc7fea8a5a5146a5575dc6294247c1b.setContent(html_09bdff4da0006f5f1195de21b1d822b2);
+            
+        
+
+        marker_ba5060c300f12ff125e492baf798cc6d.bindPopup(popup_adc7fea8a5a5146a5575dc6294247c1b)
+        ;
+
+        
+    
+    
+            var marker_18914c910cb61db3f5169a83a6d15ee3 = L.marker(
+                [38.08, -0.78],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_8854ffd85d43c06cb8f81da38c6eea18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65bef6aa2edd048d924d6c3859b655d9 = $(`<div id="html_65bef6aa2edd048d924d6c3859b655d9" style="width: 100.0%; height: 100.0%;"><b>La Vega Baja</b><br>Votantes: 4113952<br>Votos válidos: 4064544<br>Votos blancos: 36320<br>Abstenciones: 2524928<br>Votos nulos: 49408</div>`)[0];
+                popup_8854ffd85d43c06cb8f81da38c6eea18.setContent(html_65bef6aa2edd048d924d6c3859b655d9);
+            
+        
+
+        marker_18914c910cb61db3f5169a83a6d15ee3.bindPopup(popup_8854ffd85d43c06cb8f81da38c6eea18)
+        ;
+
+        
+    
+    
+            var marker_c26358eda7d5d30f420b448c1a132138 = L.marker(
+                [39.7333, -0.9667],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_6bce2642f81677ba8087285a7cf3c057 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6ab43d669f382b8eb0cb2ebd9f483ac = $(`<div id="html_f6ab43d669f382b8eb0cb2ebd9f483ac" style="width: 100.0%; height: 100.0%;"><b>Los Serranos</b><br>Votantes: 338368<br>Votos válidos: 333760<br>Votos blancos: 3712<br>Abstenciones: 92448<br>Votos nulos: 4608</div>`)[0];
+                popup_6bce2642f81677ba8087285a7cf3c057.setContent(html_f6ab43d669f382b8eb0cb2ebd9f483ac);
+            
+        
+
+        marker_c26358eda7d5d30f420b448c1a132138.bindPopup(popup_6bce2642f81677ba8087285a7cf3c057)
+        ;
+
+        
+    
+    
+            var marker_83bcd99c3c983b7ef49e6695ae5573be = L.marker(
+                [39.4699, -0.3763],
+                {
+}
+            ).addTo(map_de0f4cd4adb577c00890e36ddaba4983);
+        
+    
+        var popup_3cc6e80124b9ac5df079968f5d952be4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f746f1a8365b6f8bdc18ebe0ddcbaa69 = $(`<div id="html_f746f1a8365b6f8bdc18ebe0ddcbaa69" style="width: 100.0%; height: 100.0%;"><b>Valencia</b><br>Votantes: 12411616<br>Votos válidos: 12371872<br>Votos blancos: 54816<br>Abstenciones: 6320832<br>Votos nulos: 39744</div>`)[0];
+                popup_3cc6e80124b9ac5df079968f5d952be4.setContent(html_f746f1a8365b6f8bdc18ebe0ddcbaa69);
+            
+        
+
+        marker_83bcd99c3c983b7ef49e6695ae5573be.bindPopup(popup_3cc6e80124b9ac5df079968f5d952be4)
+        ;
+
+        
+    
+</script>
+</html>
